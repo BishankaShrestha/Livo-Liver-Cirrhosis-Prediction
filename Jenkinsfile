@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/BishankaShrestha/Livo-Liver-Cirrhosis-Prediction.git'
+                 git url: 'https://github.com/BishankaShrestha/Livo-Liver-Cirrhosis-Prediction.git', branch: 'main'
+
             }
         }
 
